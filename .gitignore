@@ -36,4 +36,5 @@ override.tf.json
 # Just in case...you don't want to commit license or install files
 *.rli
 airgap/**
+!airgap/addyour.airgap
 

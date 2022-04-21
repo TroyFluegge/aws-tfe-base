@@ -9,7 +9,8 @@ aws_region = "us-east-2"
 availability_zones = ["us-east-2a", "us-east-2b", "us-east-2c"]
 
 # Name of the TFE airgap file
-airgap_file = "tfe-607.airgap"
+# Default: tfe.airgap
+airgap_file = "addyour.airgap"
 
 # Mandatory Base Tags
 default_base_tags = {

@@ -2,6 +2,8 @@
 
 Builds Terraform Enterprise foundational prerequisites in AWS. Follow the instructions at the setup URL to complete the installation. The outputs from this Terraform can be used as inputs to the external component settings.
 
+Add your airgap file to \airgap. Use the default `tfe.airgap` filename or define your own in your tfvars file.
+
 ## Commands
 ```
 terraform init
